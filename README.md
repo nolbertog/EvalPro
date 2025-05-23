@@ -45,9 +45,7 @@ Copy Code
   <input type="password" id="password" required>
   <button type="submit">Iniciar sesión</button>
 </form>
-<script>
-  // Ver ejemplo completo en el repositorio
-</script>
+
 Uso del token JWT
 Después de hacer login, el backend devuelve un token.
 En cada petición protegida, envía el token en el header:
